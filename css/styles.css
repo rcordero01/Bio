@@ -21,7 +21,7 @@ text-align: center;
 font-family: verdana, sans-serif;
 }
 p{
-  font-size: large;  font-weight: 100;
+  font-size: large;  
 }
 .bottom-cloud{
   position: absolute;
@@ -64,4 +64,7 @@ border-radius: 50%;
 }
 .programmer{
   font-weight: normal;
+}
+.about-me{
+  border: 1px ;
 }
