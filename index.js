@@ -1,6 +1,6 @@
-//
+// //
 
-import breakWebPage from "website-breaker";
+// import breakWebPage from "website-breaker";
 
-document.getElementById("dangerous-button")
-        .addEventListener("click", () => breakWebPage());
+// document.getElementById("dangerous-button")
+//         .addEventListener("click", () => breakWebPage());
