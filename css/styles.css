@@ -68,3 +68,27 @@ border-radius: 50%;
 .about-me{
   border: 1px ;
 }
+.collapsible {
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  background-color: #f4f9f9
+}
+/* .collapsible:hover {
+  background-color: #66BFBF;;
+} */
+/* .see-more:hover{
+  background-color: #66BFBF;;
+} */
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: #f4f9f9
+  font-size: 15px;
+}
