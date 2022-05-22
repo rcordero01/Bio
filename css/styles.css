@@ -82,9 +82,9 @@ border-radius: 50%;
 /* .collapsible:hover {
   background-color: #66BFBF;;
 } */
-.see-more:hover{
-  color: #66BFBF;;
-}
+/* .see-more:hover{
+  background-color: #66BFBF;;
+} */
 .content {
   padding: 0 10px;
   display: none;
