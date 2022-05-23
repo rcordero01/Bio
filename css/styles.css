@@ -37,7 +37,7 @@ left: 300px;
 }
 .middle-container{
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .bottom-container{
   color: #11999E;
@@ -67,6 +67,7 @@ border-radius: 50%;
 }
 .about-me{
   border: 1px ;
+  font-size: 15px;
 }
 .collapsible {
   font-family: 'Montserrat', sans-serif;
@@ -91,4 +92,35 @@ border-radius: 50%;
   overflow: hidden;
   background-color: #f4f9f9
   font-size: 15px;
+}
+.fade-in-image {
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
