@@ -78,12 +78,6 @@ border-radius: 50%;
   font-size: 17px;
   background-color: #f4f9f9
 }
-/* .collapsible:hover {
-  background-color: #66BFBF;;
-} */
-/* .see-more:hover{
-  background-color: #66BFBF;;
-} */
 .content {
   padding: 0 10px;
   display: none;
@@ -98,6 +92,14 @@ border-radius: 50%;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
 }
+button {
+  transition: transform .3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.2)
+}
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
