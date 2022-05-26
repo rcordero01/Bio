@@ -22,6 +22,9 @@ font-family: verdana, sans-serif;
 p{
   font-size: large;  
 }
+a {
+  text-decoration: none;
+}
 .bottom-cloud{
   position: absolute;
   left: 200px;
